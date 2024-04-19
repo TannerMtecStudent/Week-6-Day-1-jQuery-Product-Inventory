@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight:normal;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+hr{
+    width: 50px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+tr {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    margin: 8px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#darkModeButton{
+    width: 150px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 100px;
+}
+
+
+.darkMode{
+    color:white;
+    background-color: rgb(10, 10, 10);
+
+}
+
+
+tr.darkMode{
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.75)
+}
+
+#darkModeButton.darkMode{
+    border: 1px solid white;
+}
